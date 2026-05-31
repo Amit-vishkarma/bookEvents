@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Started Modal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/login_style.css" />
+  </head>
+  <body>
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Get Started</h2>
+          <span class="close-btn" id="closeBtn">&times;</span>
+        </div>
+
+        <div class="login-options">
+          <div class="social-btn-div">
+            <i class="fa-brands fa-google"></i>
+            <button class="social-btn">Continue with Google</button>
+          </div>
+          <div class="social-btn-div">
+            <i class="fa-regular fa-envelope"></i>
+            <button class="social-btn">Continue with Email</button>
+          </div>
+          <div class="social-btn-div">
+            <i class="fa-brands fa-apple"></i>
+            <button class="social-btn">Continue with Apple</button>
+          </div>
+        </div>
+
+        <div class="divider">
+          <span>OR</span>
+        </div>
+
+        <div class="phone-input-container">
+          <div class="country-code">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
+              alt="India"
+            />
+            +91
+          </div>
+          <input type="text" placeholder="Continue with mobile number" />
+        </div>
+          
+        <p class="terms">
+          I agree to <a href="#">Terms & Conditions</a> &
+          <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="script/login_script.js"></script>
+  </body>
+</html>
